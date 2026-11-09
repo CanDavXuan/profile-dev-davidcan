@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://djhhsj5ml56kh"]
+
+[ext_resource type="PackedScene" uid="uid://c5gs07ay5xbxi" path="res://Character_Basic.tscn" id="1_2nv7x"]
+[ext_resource type="Script" uid="uid://dcbd2kggg1yxq" path="res://PointNClick/clickmove.gd" id="2_y8y8r"]
+
+[node name="PointNClick" type="Node2D" unique_id=503218648]
+
+[node name="Node2D" parent="." unique_id=153401648 instance=ExtResource("1_2nv7x")]
+position = Vector2(634, 333)
+script = ExtResource("2_y8y8r")
