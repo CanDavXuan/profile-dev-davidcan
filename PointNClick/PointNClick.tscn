@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://djhhsj5ml56kh"]
 
-[ext_resource type="PackedScene" uid="uid://c5gs07ay5xbxi" path="res://Character_Basic.tscn" id="1_2nv7x"]
+[ext_resource type="PackedScene" uid="uid://c5gs07ay5xbxi" path="res://Standards/Character_Basic.tscn" id="1_2nv7x"]
 [ext_resource type="Script" uid="uid://dcbd2kggg1yxq" path="res://PointNClick/clickmove.gd" id="2_y8y8r"]
 
 [node name="PointNClick" type="Node2D" unique_id=503218648]
