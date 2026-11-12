@@ -1,0 +1,12 @@
+[gd_scene format=3 uid="uid://d15re1wgsqc4v"]
+
+[ext_resource type="Script" uid="uid://rntlpj44yep7" path="res://tween.gd" id="1_r5waj"]
+[ext_resource type="Texture2D" uid="uid://dhx6m0jstexf0" path="res://icon.svg" id="2_vviww"]
+
+[node name="Main" type="Node2D" unique_id=36730285]
+script = ExtResource("1_r5waj")
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=151727714]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=625994578]
+texture = ExtResource("2_vviww")
